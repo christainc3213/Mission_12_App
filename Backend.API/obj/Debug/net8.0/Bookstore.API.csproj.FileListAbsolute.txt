@@ -77,3 +77,4 @@
 /Users/christianchristensen/Desktop/Mission11App/Backend.API/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/christianchristensen/Desktop/Mission11App/Backend.API/obj/Debug/net8.0/Bookstore.API.sourcelink.json
 /Users/christianchristensen/Desktop/Mission11App/Backend.API/bin/Debug/net8.0/package.json
+/Users/christianchristensen/Desktop/Mission11App/Backend.API/bin/Debug/net8.0/Bookstore.sqlite

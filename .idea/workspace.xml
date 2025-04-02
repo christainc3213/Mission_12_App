@@ -6,15 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="15e89312-e921-40bd-8321-94c57661e8d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.API/Bookstore.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/Bookstore.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/bin/Debug/net8.0/Bookstore.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/bin/Debug/net8.0/Bookstore.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/bin/Debug/net8.0/Bookstore.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/bin/Debug/net8.0/Bookstore.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.API/obj/Bookstore.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Bookstore.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/Bookstore.API.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/ref/Bookstore.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/ref/Bookstore.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/refint/Bookstore.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/Debug/net8.0/refint/Bookstore.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Backend.API/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend.API/WeatherForecast.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend.API/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Frontend/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/src/api/bookService.tsx" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/src/components/BookList.tsx" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frontend/src/types/Book.ts" root0="SKIP_HIGHLIGHTING" />
@@ -61,12 +68,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;phase6&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/christianchristensen/Desktop/Mission11App/Frontend/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -102,6 +110,10 @@
       <workItem from="1743180891876" duration="4275000" />
       <workItem from="1743309140181" duration="27000" />
       <workItem from="1743620273096" duration="5000" />
+      <workItem from="1743620283323" duration="3761000" />
+      <workItem from="1743624245121" duration="299000" />
+      <workItem from="1743624562191" duration="1002000" />
+      <workItem from="1743625663252" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <option name="closed" value="true" />
@@ -119,6 +131,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="asdf" />

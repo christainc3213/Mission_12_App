@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5230/api/books";
+const API_BASE = "https://bookstore-cc-backend.azurewebsites.net/api/books";
 
 // Fetch all books using a large page size (so we effectively get everything)
 export const getBooks = async () => {

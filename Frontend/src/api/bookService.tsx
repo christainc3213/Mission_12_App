@@ -6,7 +6,7 @@ export const getBooks = async (
     category: string = ""
 ) => {
     try {
-        const url = new URL("http://localhost:5230/api/books");
+        const url = new URL("https://bookstore-cc-backend.azurewebsites.net/api/books");
         url.searchParams.append("pageNumber", pageNumber.toString());
         url.searchParams.append("pageSize", pageSize.toString());
         url.searchParams.append("sortBy", sortBy);
