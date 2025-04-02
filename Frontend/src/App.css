@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+body {
+  padding: 40px; /* adjust as needed */
+}
+
+.container {
+  padding: 2rem !important;         /* spacing inside container */
+  margin-bottom: 4rem;              /* breathing room at the bottom */
+  border-radius: 10px;
+}
+
+
 th {
   cursor: pointer;
   text-decoration: underline;

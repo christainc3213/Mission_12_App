@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { CartProvider } from './context/CartContext';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './App.css';
+
 
 
 // Import Cyborg Bootswatch theme from the installed package

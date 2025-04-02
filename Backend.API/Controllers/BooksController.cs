@@ -60,7 +60,82 @@ namespace Bookstore.API.Controllers
 
             return Ok(categories);
         }
+        
+        // POST: api/books
+        [HttpPost]
+        public async Task<ActionResult<Book>> AddBook([FromBody] Book newBook)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            _context.Books.Add(newBook);
+            await _context.SaveChangesAsync();
+
+            // Return the newly created book (with ID)
+            return CreatedAtAction(nameof(GetBookById), new { id = newBook.BookID }, newBook);
+        }
+
+        // Optional existing GET
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Book>> GetBookById(int id)
+        {
+            var book = await _context.Books.FindAsync(id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(book);
+        }
 
 
+        // PUT: api/books/{id}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateBook(int id, [FromBody] Book updatedBook)
+        {
+            if (id != updatedBook.BookID)
+            {
+                return BadRequest("Book ID mismatch");
+            }
+
+            _context.Entry(updatedBook).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Books.Any(b => b.BookID == id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+        
+        // DELETE: api/books/{id}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBook(int id)
+        {
+            var book = await _context.Books.FindAsync(id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            _context.Books.Remove(book);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+        
     }
 }
